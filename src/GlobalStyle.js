@@ -1,3 +1,4 @@
+
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
@@ -18,3 +19,4 @@ button {
   padding: 5px;
 }
 `
+
