@@ -6,12 +6,15 @@
  *
  * Don't forget to import 'styled-components/macro'!
  */
+import Header from './Header'
 
 export default function App() {
   return (
     <div>
-      <h1>Hello Hacker!</h1>
-      <p>Let's learn styled-components together!</p>
+      <Header
+      title={'Hello Hacker!'}
+      subtitle={'Let\'s learn styled-components together!'} />
+
     </div>
   )
 }
